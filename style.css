@@ -100,7 +100,6 @@ nav{
 }
 
 .hero{
-    width: 100%;
     background-color:#f0f0f0;
     display:flex;
     justify-content:space-around;
@@ -108,11 +107,7 @@ nav{
     flex-wrap: wrap;
     position:relative;
     padding-top: 8rem;
-    margin-top:5rem;
-}
-
-.kolom-tulisan-hero{
-    padding-left:5rem;
+    margin:5rem auto;
 }
 
 .nama-hero{
@@ -123,9 +118,10 @@ nav{
     color:var(--primary);
     font-size: 4rem;
     font-family:var(--font-j);
-    max-width: 900px;
+    max-width:500px;
     margin-bottom: 1.5rem;
 }
+
 
 .kolom-tulisan-hero p{
    font-size: 1.3rem;
@@ -157,8 +153,9 @@ svg{
 }
 
 .kolom-gambar-hero{
-    max-width:500px;
+    max-width:550px;
     position:relative;
+     padding-left:2rem;
 }
 
 .kolom-gambar-hero img{
@@ -773,6 +770,15 @@ img{
     text-align: center;
     padding: 0;
   }
+
+  .kolom-tulisan-hero h2{
+    color:var(--primary);
+    font-size: 4rem;
+    font-family:var(--font-j);
+    max-width:600px;
+    margin: auto;
+
+}
 
   .hero img{
     margin-top:2rem;
