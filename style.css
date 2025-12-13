@@ -165,21 +165,12 @@ svg{
     padding: 30px 50px 0px 50px;
 }
 
-.kolom-gambar-hero .fa-solid-atas{
-    font-size:6rem;
-    color: var(--primary);
-    position:absolute;
-    top:-20px;
-    right:-40px;
-    animation:spinner 5s alternate-reverse infinite;
-}
-
 .kolom-gambar-hero .fa-solid-bawah{
     font-size:6rem;
     color: var(--primary);
     position:absolute;
     bottom:-20px;
-    left: -40px;
+    left: -20px;
     animation:spinner 5s alternate-reverse infinite;
 }
 
