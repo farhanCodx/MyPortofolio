@@ -806,6 +806,11 @@ img{
   img{
      max-width:400px;
   }
+
+ .peta-footer{
+     max-width:100%;
+     padding:20px;
+  }
 }
 @media (max-width: 768px) {
   html {
