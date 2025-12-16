@@ -996,6 +996,16 @@ img{
   }
 
 
+ .menu-project{
+    margin-top:5rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:30px;
+}
+
+
   img{
     max-width:400px;
 
