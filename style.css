@@ -893,6 +893,10 @@ img{
     visibility: visible;
 }
 
+.kolom-gambar-tentang{
+    max-width:400px;
+  }
+
 .hero{
     justify-content: center;
     flex-direction: column;
