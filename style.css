@@ -893,9 +893,6 @@ img{
     visibility: visible;
 }
 
-.kolom-gambar-tentang{
-    max-width:400px;
-  }
 
 .hero{
     justify-content: center;
@@ -998,6 +995,17 @@ img{
     max-width:300px;
     margin-bottom: 5rem;
   }
+
+      .tentang{
+        padding:0px 40px 0px 40px;
+   }
+
+   .sosialmedia{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
 
 
  .menu-project{
