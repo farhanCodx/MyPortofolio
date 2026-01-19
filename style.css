@@ -1026,7 +1026,7 @@ img{
 .kolom-gambar-hero img{
     width:100%;
     background-color: white;
-    border-top-left-radius:200px ;
+    border-top-left-radius:100px ;
     border-bottom-right-radius: 100px;
     padding:10px;
 }
