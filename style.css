@@ -1014,23 +1014,6 @@ img{
     margin: none;
   }
 
- .kolom-gambar-hero{
-    max-width:50%;
-    position:relative;
-    padding-left:2rem;
-    margin-bottom: 5rem;
-}
-
-
-
-.kolom-gambar-hero img{
-    width:100%;
-    background-color: white;
-    border-top-left-radius:100px ;
-    border-bottom-right-radius: 100px;
-    padding:10px;
-}
-
 
    .tentang{
         padding:0px 40px 0px 40px;
