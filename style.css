@@ -223,17 +223,17 @@ svg{
 .p-span-tentang{
     font-weight: 700;
 }
-img{
-    width:100%;
+
+
+.kolom-gambar-tentang{
+    width:30%;
+    position:relative;
+    
 }
 
 .kolom-gambar-tentang img{
-   background-color:#f0f0f0;
-}
-
-.kolom-gambar-tentang{
-    max-width:100%;
-    position: relative;
+    width:100%;
+    border-radius:10px;
 }
 .sosialmedia{
     max-width: 50%;
