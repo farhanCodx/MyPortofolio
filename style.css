@@ -1019,7 +1019,7 @@ img{
     margin-bottom: 5rem;
   }
 
-      .tentang{
+   .tentang{
         padding:0px 40px 0px 40px;
    }
 
@@ -1034,6 +1034,11 @@ img{
       flex-wrap: wrap;
       justify-content: center;
     }
+
+.deskripsi-softskill{
+    padding: 40px;
+}
+
 
 
 
