@@ -161,9 +161,9 @@ svg{
 .kolom-gambar-hero img{
     width:100%;
     background-color: white;
-    border-top-left-radius:200px ;
-    border-bottom-right-radius: 100px;
-    padding: 20px 20px 20px 20px;
+    border-top-left-radius:200px;
+    border-bottom-right-radius:100px;
+    padding:20px;
 }
 
 .kolom-gambar-hero .fa-solid-bawah{
