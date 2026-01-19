@@ -608,6 +608,10 @@ img{
      margin: auto;
 }
 
+.sosialmedia i{
+    color: #d4d4d4;
+}
+
 .copyright{
      margin: auto;
      font-size: 1.3rem;
