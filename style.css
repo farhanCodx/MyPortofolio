@@ -235,63 +235,6 @@ svg{
     width:100%;
     border-radius:10px;
 }
-.sosialmedia{
-    max-width: 50%;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    background-color: white;
-    border-radius:10px;
-    position: absolute;
-    bottom:-40px;
-    left:25%;
-    gap:20px;
-    animation:shadow 4s infinite alternate-reverse ;
-}
-
-
-.sosialmedia a{
-    color: var(--primary);
-    font-size:2rem;
-}
-
-.sosialmedia a{
-     transition: all .3s ease-in-out;
-}
-.sosialmedia a:hover{
-     transform: scale(1.5);
-  
-
-}
-
-.social-facebook:hover{
-    color:#1877F2;
-}
-.social-instagram:hover{
-    color: #F58529 → #DD2A7B → #8134AF → #515BD4 ;
-       filter: brightness(2);
-}
-.social-youtube:hover{
-    color:#FF0000;
-}
-.social-whatsapp:hover{
-    color: #25D366;
-}
-
-
-
-
-@keyframes shadow{
-    from{
-      opacity: 0.5;
-    }
-
-    to{
-    
-        opacity: 1;
-        box-shadow: 0 0 14px rgba(124, 58, 237, 0.6);
-    }
-}
 
 
 .softskill{
@@ -642,17 +585,70 @@ img{
 }
 
 
+
+
 .bagian-footer-kedua{
-    padding: 2rem 0;
+    width:100%;
     display: flex;
-    justify-content: center;
-    font-size: 1.3rem;
-    font-family: var(--font-p);
-    background-color: black;
+    flex-direction: column;
     color:#d4d4d4;
+    background-color: black;
+    padding:3rem 0px;
     margin-top: 4rem;
     border-top: 2px solid rgba(255, 255, 255, 0.2);
+    gap:20px;
+    
 }
+
+
+
+.sosialmedia{
+     display:flex;
+     gap:20px;
+     margin: auto;
+}
+
+.copyright{
+     margin: auto;
+     font-size: 1.3rem;
+     font-family: var(--font-p);
+}
+.sosialmedia a{
+    color: var(--primary);
+    font-size:2rem;
+    transition: all .3s ease-in-out;
+    margin:auto;
+}
+.sosialmedia a:hover{
+     transform: scale(1.5);
+}
+.social-facebook:hover{
+    color:#1877F2;
+}
+.social-instagram:hover{
+    color: #F58529 → #DD2A7B → #8134AF → #515BD4 ;
+       filter: brightness(2);
+}
+.social-youtube:hover{
+    color:#FF0000;
+}
+.social-whatsapp:hover{
+    color: #25D366;
+}
+@keyframes shadow{
+    from{
+      opacity: 0.5;
+    }
+
+    to{
+    
+        opacity: 1;
+        box-shadow: 0 0 14px rgba(124, 58, 237, 0.6);
+    }
+}
+
+
+
 
 .footer-menu{
     color:var(--primary);
