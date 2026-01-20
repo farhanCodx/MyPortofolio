@@ -203,7 +203,7 @@ svg{
 }
 
 .kolom-tulisan-tentang h2{
-    text-align:center;
+    text-align: center;
     color:var(--primary);
     font-size:2.8rem;
     font-family:var(--font-j);
@@ -218,7 +218,7 @@ svg{
    line-height: 1.6;
    color: var(--second);
    margin-bottom:3rem;
-   text-align:center;
+   text-align: center;
 }
 
 .p-span-tentang{
