@@ -189,12 +189,12 @@ svg{
 
 
 .tentang{
-    display:flex;
-    background-color:white;
-    flex-direction:column;
-    justify-content:center;
+    display: flex;
+    background-color: white;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap; 
+    flex-direction:column;
     gap:20px;
     scroll-margin-top:5rem;
 }
