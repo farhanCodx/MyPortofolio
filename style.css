@@ -214,15 +214,34 @@ svg{
 .kolom-tulisan-tentang p{
    font-size: 1.3rem;
    font-family: var(--font-p);
-   max-width: 650px;
+   max-width: 700px;
    line-height: 1.6;
    color: var(--second);
-   margin-bottom:3rem;
+   margin: 0 auto 3rem;
    text-align: center;
 }
 
 .p-span-tentang{
     font-weight: 700;
+}
+
+
+.icon{
+    display:flex;
+    flex-wrap: wrap;
+    transform: translateY(-250px);
+    opacity:0.1;
+    z-index: 32;
+}
+
+.icon .icon-1 i{
+   font-size: 200px;
+}
+.icon .icon-2 i{
+   font-size: 300px;
+}
+.icon .icon-3 i{
+   font-size: 200px;
 }
 
 
@@ -770,6 +789,27 @@ img{
      
 } 
 
+.icon{
+    display:flex;
+    flex-wrap: wrap;
+    transform: translateY(-150px);
+    opacity:0.1;
+    z-index: 32;
+}
+
+.icon .icon-1 i{
+   font-size: 200px;
+}
+.icon .icon-2 i{
+   font-size: 200px;
+   
+}
+.icon .icon-3 i{
+   font-size: 200px;
+   display:none;
+}
+
+
   .pengalaman ,.pengalamanlagi{
     min-height:50vh;
     flex-direction: column;
@@ -929,6 +969,29 @@ img{
     border-bottom-right-radius: 50px;
     padding: 10px 10px 10px 10px;
 }
+
+
+.icon{
+    display:flex;
+    flex-wrap: wrap;
+    transform: translateY(-150px);
+    opacity:0.1;
+    z-index: 32;
+}
+
+.icon .icon-1 i{
+   font-size: 200px;
+}
+.icon .icon-2 i{
+   font-size: 200px;
+    display:none;
+   
+}
+.icon .icon-3 i{
+   font-size: 200px;
+   display:none;
+}
+
 
   .pengalaman ,.pengalamanlagi{
     min-height:50vh;
