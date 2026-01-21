@@ -791,16 +791,16 @@ img{
 .icon{
     display:flex;
     flex-wrap: wrap;
-    transform: translateY(-150px);
+    transform: translateY(-200px);
     opacity:0.1;
     z-index: 32;
 }
 
 .icon .icon-1 i{
-   font-size: 300px;
+   font-size: 200px;
 }
 .icon .icon-2 i{
-   font-size: 300px;
+   font-size: 200px;
    
 }
 .icon .icon-3 i{
@@ -973,13 +973,13 @@ img{
 .icon{
     display:flex;
     flex-wrap: wrap;
-    transform: translateY(-150px);
+    transform: translateY(-200px);
     opacity:0.1;
     z-index: 32;
 }
 
 .icon .icon-1 i{
-   font-size: 300px;
+   font-size: 200px;
 }
 .icon .icon-2 i{
    font-size: 300px;
