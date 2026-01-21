@@ -189,6 +189,8 @@ svg{
 
 
 .tentang{
+    width:100%;
+    min-height:80vh;
     display: flex;
     background-color: white;
     justify-content: center;
