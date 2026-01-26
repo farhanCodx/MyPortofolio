@@ -153,26 +153,26 @@ svg{
 }
 
 .kolom-gambar-hero{
-    max-width:30%;
     position:relative;
     padding-left:2rem;
+    
 }
-
 .kolom-gambar-hero img{
-    width:100%;
-    background-color: white;
-    border-top-left-radius:200px;
-    border-bottom-right-radius:100px;
+    width: 100%;
+    position: relative;
+    z-index: 2; /* di atas icon */
+    transform: scale(1.8);
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:40rem;
+    position: absolute;
+    top: 160%;
+    left: 190%;
+    transform: translate(-120%, -120%); /* bikin benar-benar di tengah */
+    z-index:1; /* di belakang gambar */
 }
 
-.kolom-gambar-hero .fa-solid-bawah{
-    font-size:6rem;
-    color: var(--primary);
-    position:absolute;
-    bottom:-20px;
-    left: -20px;
-    animation:spinner 5s alternate-reverse infinite;
-}
 
 @keyframes spinner{
     from{
@@ -768,18 +768,28 @@ img{
 
 }
 
-  .hero img{
-    margin-top:2rem;
-
-  }
-
 .kolom-gambar-hero{
-    max-width:50%;
     position:relative;
     padding-left:2rem;
+    
 }
-
-
+.kolom-gambar-hero img{
+    position: relative;
+    z-index: 2; /* di atas icon */
+    transform: scale(1.5);
+    padding:10px;
+    margin-top:2rem;
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:45rem;
+    position: absolute;
+    top: 145%;
+    left: 165%;
+    transform: translate(-120%, -130%); /* bikin benar-benar di tengah */
+    z-index:1; /* di belakang gambar */
+}
+    
 .kolom-gambar-tentang{
     max-width:50%;
     position:relative;
@@ -934,11 +944,6 @@ img{
 }
 
 
-.hero{
-    justify-content: center;
-    flex-direction: column;
-}
-
 .kolom-tulisan-hero{
     text-align: center;
     padding: 0;
@@ -953,20 +958,35 @@ img{
 
 }
 
-  .hero img{
-    margin-top:2rem;
-
-  }
-
-
-.kolom-gambar-hero img{
-    width:100%;
-    background-color: white;
-    border-top-left-radius:50px ;
-    border-bottom-right-radius: 50px;
-    padding: 10px 10px 10px 10px;
+ .hero{
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
 }
 
+
+.kolom-gambar-hero{
+    position:relative;
+    
+}
+.kolom-gambar-hero img{
+    position: relative;
+    z-index: 2; /* di atas icon */
+    transform: scale(1.4);
+    padding:10px;
+    margin: 0;
+
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:48rem;
+    position: absolute;
+    top: 75%;
+    left: 153%;
+    transform: translate(-120%, -30%); /* bikin benar-benar di tengah */
+    z-index:1; /* di belakang gambar */
+    
+}
 
 .icon{
     display:flex;
@@ -1049,45 +1069,61 @@ img{
   }
 }
 
-
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   html {
     font-size:55%;  /* 28px */
   }
 
-  svg{
-    display: none;
-  }
+ 
   .hero{
     padding: 0;
-    margin: none;
+    margin: 0;
+    min-height: 50vh;
+  }
+  
+
+.kolom-tulisan-hero{
+    margin-top:10rem;
+}
+
+
+
+
+   svg{
+    display:inline-block;
+
   }
 
 
-   .tentang{
-        padding:0px 40px 0px 40px;
-   }
-
-
-.kolom-gambar-tentang{
-    width:60%;
+  .kolom-gambar-hero{
     position:relative;
+    height:400px;
+    
+}
+.kolom-gambar-hero img{     /* Ukuran asli gambar */
+    max-width: 100%;
+    position: relative;
+    z-index: 2; /* di atas icon */
+    transform:translateY(-200px);
+    margin:0;
+
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:38rem;
+    position: absolute;
+    top: 62%;
+    left: 122%;
+    transform: translate(-120%, -30%); /* bikin benar-benar di tengah */
+    z-index:1; /* di belakang gambar */
 }
 
-   .sosialmedia{
-      display:flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-.deskripsi-softskill{
+  .deskripsi-softskill{
     padding: 40px;
 }
 
-
-
-
- .menu-project{
+  
+.menu-project{
     margin-top:5rem;
     display:flex;
     justify-content: center;
@@ -1096,14 +1132,84 @@ img{
     padding:30px;
 }
 
-
-  img{
-    max-width:400px;
-
-  }
 }
 
 
+.hardskill{
+    display: none;
+}
+
+
+@media (max-width: 400px) {
+  html {
+    font-size:55%;  /* 28px */
+  }
+
+ 
+  .hero{
+    padding: 0;
+    margin: 0;
+    min-height: 50vh;
+  }
+  
+
+.kolom-tulisan-hero{
+    margin-top:10rem;
+}
+
+
+
+
+   svg{
+    display:inline-block;
+
+  }
+
+
+  .kolom-gambar-hero{
+    position:relative;
+    height:400px;
+    
+}
+.kolom-gambar-hero img{     /* Ukuran asli gambar */
+    max-width: 100%;
+    position: relative;
+    z-index: 2; /* di atas icon */
+    transform:translateY(-150px);
+    margin:0;
+
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:30rem;
+    position: absolute;
+    top: 62%;
+    left: 122%;
+    transform: translate(-120%, -30%); /* bikin benar-benar di tengah */
+    z-index:1; /* di belakang gambar */
+    display: none;
+}
+
+  .deskripsi-softskill{
+    padding: 40px;
+}
+
+  
+.menu-project{
+    margin-top:5rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:30px;
+}
+
+}
+
+
+.hardskill{
+    display: none;
+}
 
 
 
