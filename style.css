@@ -1188,7 +1188,7 @@ img{
     left: 122%;
     transform: translate(-120%, -30%); /* bikin benar-benar di tengah */
     z-index:1; /* di belakang gambar */
-    display: none;
+    
 }
 
   .deskripsi-softskill{
