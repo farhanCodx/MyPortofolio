@@ -150,6 +150,7 @@ nav{
 svg{
     display:absolute;
     bottom:0;
+     z-index: 20;
 }
 
 .kolom-gambar-hero{
