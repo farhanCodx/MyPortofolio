@@ -783,10 +783,9 @@ img{
 }
 .kolom-gambar-hero i{
     color:var(--primary);
-    font-size:45rem;
-    position: absolute;
+    font-size:42rem;
     top: 145%;
-    left: 165%;
+    left: 157%;
     transform: translate(-120%, -130%); /* bikin benar-benar di tengah */
     z-index:1; /* di belakang gambar */
 }
@@ -1182,14 +1181,15 @@ img{
 }
 .kolom-gambar-hero i{
     color:var(--primary);
-    font-size:30rem;
+    font-size:33rem;
     position: absolute;
     top: 62%;
-    left: 122%;
-    transform: translate(-120%, -30%); /* bikin benar-benar di tengah */
+    left: 119%;
+    transform: translate(-120%, -24%); /* bikin benar-benar di tengah */
     z-index:1; /* di belakang gambar */
-    
+    display:block;
 }
+
 
   .deskripsi-softskill{
     padding: 40px;
@@ -1210,6 +1210,32 @@ img{
 
 .hardskill{
     display: none;
+}
+
+
+@media (max-width: 360px) {
+  .kolom-gambar-hero{
+    position:relative;
+    height:400px;
+    
+}
+.kolom-gambar-hero img{   
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    transform:translateY(-110px);
+    margin:0;
+
+}
+.kolom-gambar-hero i{
+    color:var(--primary);
+    font-size:30rem;
+    position: absolute;
+    top: 62%;
+    left: 118%;
+    transform: translate(-120%, -15%); 
+    display:block;
+}
 }
 
 
